@@ -3,9 +3,9 @@ Constant current load circuit with 0-2A adjustment
 
 ## Finding a design and adjusting it
 For some time I was looking to make a constant current loads to test some pc power supplies I converted to bench power supplies. I found some designs but had various results and nothing seemed to be stable and reliable enough. The main problem was usually the initial current surge was too high and power supplies considered it a short circuit and switched off. Another obstacle was I didn't have an oscilloscope, but I recently got one [JYETech DSO150 Digital Oscilloscope](https://www.banggood.com/Original-JYETech-Assembled-DSO-SHELL-DSO150-Digital-Oscilloscope-Module-9V-p-1211151.html?cur_warehouse=CN&rmmds=search). Also I came across this thread and this reply on [eevblog.com](https://www.eevblog.com/forum/beginners/a-load-off-my-mnd/msg2151265/#msg2151265), and it seemed promising:
-<br> <img src="/images/eevblog_schematic.png" width="60%"> 
+<br> <img src="/images/eevblog_schematic.jpg" width="60%"> 
 <br> So i changed some things on this schematic to adjust to components I already had and got this:
-<br> <img src="/images/my_schematic.png" width="60%"> 
+<br> <img src="/images/my_schematic.jpg" width="60%"> 
 
 ## Prototype and testing
 After I got the circuit planed out I started to assemble it all on a breadboard <img src="/images/breadboard.jpg" width="60%">
