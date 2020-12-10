@@ -21,10 +21,11 @@ After I got the circuit planed out I started to assemble it all on a breadboard 
 <br> <img src="/images/osc_0.5A.jpg" width="20%"> <img src="/images/osc_1A.jpg" width="20%"> <img src="/images/osc_1.5A.jpg" width="20%"> <img src="/images/osc_2A.jpg" width="20%">
 
 ## Additional components
-TODO: I'm still workign on this, but I plan to use a heatsink from an old graphics card and an 80mm fan for cooling, and also adding an Arduino with an OLED display to show current, voltage, power, set current..., and add a BNC connector for external current setting, useful in future for plotting stuff or something. 
+TODO: I'm still workign on this, but I plan to use a heatsink from an old graphics card and an 80mm fan for cooling, a also add a BNC connector for external current setting, useful in future for plotting stuff or something. 
 
 ## Building it
 TODO: Pictures of enclosure and layout, wiring, cooling, front and back panel design...
+I designed an enclosure for 3D printing. TODO: add pictures of it
 
 ## Final results
 TODO: Final pictures, another testing, overheating testing
