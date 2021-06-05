@@ -19,8 +19,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define SET_PIN A0
 #define CURR_PIN A1
 #define VOLT_PIN A2
-#define SET_MULT 4
-#define CURR_MULT 5
+#define SET_MULT 4.72
+#define CURR_MULT 4.75
 #define VOLT_MULT 29.23
 
 float set = 0;
@@ -75,11 +75,13 @@ void loop() {
   u /= N_SAMPLES;
 
   // Sample current
-  i = 0;
-  for(int i = 0; i < N_SAMPLES; i++){
+  i = 0.0;
+  for(int j = 0; j < N_SAMPLES; j++){
     i += float(analogRead(CURR_PIN)) * 1.1 * CURR_MULT / 1024.0;
   }
   i /= N_SAMPLES;
+  if(i < 0.005)
+    i = 0;
   
   // Calculate resistance
   r = u / i;
